@@ -1,4 +1,13 @@
-on: push
+name: dump
+on: 
+    push:
+
+
+
+
+    pull_request:
+ 
+
 
 jobs:
   one:
