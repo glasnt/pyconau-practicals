@@ -1,0 +1,39 @@
+name: build
+on: [pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Build artefacts
+        uses: docker://pandoc/core:2.9.1.1
+        with: 
+          args: -o pyconau-practicals.epub --toc --metadata-file metadata.yaml LICENCE.md README.md 01_intro.md 02_website.md 03_sessions.md 04_tickets.md 05_lightning-talks.md 06_financial_assistance.md 07_shirts.md 08-signage-and-customs.md  09_sponsorship.md 99_thanks.md
+      - name: Save artefact
+        uses: actions/upload-artifact@v1
+        with:
+          name: pyconau-practicals.epub
+          path: .
+      - name: Create Release
+        id: create_release
+        if: github.action == 'closed' && github.pull_request.merged == 'true'
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+      - name: Upload Release Asset
+        id: upload_release_asset
+        if: github.action == 'closed' && github.pull_request.merged == 'true'
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./pyconau-practicals.epub
+          asset_name: pyconau-practicals.epub
+          asset_content_type: application/epub+zip

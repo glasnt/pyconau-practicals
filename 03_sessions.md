@@ -13,7 +13,6 @@ Notes:
 
 * Mentorship
 * Encouraging new speakers
-* 
 
 ## Presentation Selection
 
@@ -85,7 +84,7 @@ We also appended useful tips and information to each sheet: contact information 
 One thing I'd like to try out is having a system I've seen at another conference: A Q&A Zone. An area outside of the speaking room setup with a table and stools, where the speaker can take a breather and engage in post-talk discussions with anyone in the audience who choses to ask follow up questions. I'd improve this setup by also having some light refreshments -- even just some water -- because as a speaker just come of stage, I need to recover. 
 
 
-
 ## Bonus: Invited speakers
 
-TODO(glasnt)
+TODO
+
