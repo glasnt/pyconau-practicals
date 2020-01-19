@@ -1,5 +1,11 @@
 name: build
-on: push
+on: 
+  push:
+    branches:
+      - master
+    pull_request:
+      branches:
+        - master
 
 jobs:
   test:
@@ -14,7 +20,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: pyconau-practicals.epub
-          path: .
+          path: pyconau-practicals.epub
       - name: Create Release
         id: create_release
         if: github.action == 'closed' && github.pull_request.merged == 'true'
