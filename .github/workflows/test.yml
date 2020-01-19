@@ -6,13 +6,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Install dependencies
-        run: | 
-          sudo apt-get update
-          sudo apt-get install pandoc --no-dependencies
       - name: Build artefacts
-        run: |
-          generate.sh
+        uses: docker://pandoc/core:2.9
+        with: 
+            args: |> 
+                $(cat ORDER) 
+                -o pyconau-practicals.epub 
+                --toc
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
