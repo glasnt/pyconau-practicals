@@ -1,7 +1,6 @@
 # https://itnext.io/creating-a-github-action-to-tag-commits-2722f1560dec
 
 chmod +x semver
-./semver
 
 # get latest tag
 t=$(git describe --tags `git rev-list --tags --max-count=1`)
@@ -27,4 +26,5 @@ case "$log" in
 
 esac
 
+echo "Setting new-tag to ${new}."
 echo "::set-output name=new_tag::${new}"
