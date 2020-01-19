@@ -1,25 +1,32 @@
 name: build
 on: [push] 
-env: 
-    epub: pyconau-practicals.epub
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+
+      # Make the documents
       - name: Build artefacts
         uses: docker://pandoc/core:2.9.1.1
         with: 
           args: -o ${{env.epub}} --toc --metadata-file metadata.yaml LICENCE.md README.md 01_intro.md 02_website.md 03_sessions.md 04_tickets.md 05_lightning-talks.md 06_financial_assistance.md 07_shirts.md 08-signage-and-customs.md  09_sponsorship.md 99_thanks.md
+
+      # Saves a copy for checking and debugging
       - name: Save artefact
         uses: actions/upload-artifact@v1
         with:
           name: pyconau-practicals.epub
           path: pyconau-practicals.epub
+
+      #
+      # The following only runs on merge to master (either via a direct commit, or a merged pull request)
+      #
+      #
       - name: Create Release
         id: create_release
-        if: github.ref == "refs/heads/${{ github.event.repository.default_branch }}"
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -28,9 +35,10 @@ jobs:
           release_name: Release ${{ github.ref }}
           draft: false
           prerelease: false
+
       - name: Upload Release Asset
         id: upload_release_asset
-        if: github.ref == "refs/heads/master"
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
         uses: actions/upload-release-asset@v1.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
