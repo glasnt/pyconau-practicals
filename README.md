@@ -4,9 +4,9 @@ Running a technical conference is not simple. There are many moving parts, many 
 
 This repository serves as a cache of tips, tricks, suggestions, and considerations that made PyCon AU 2018/2019 the event it was. This cache has been primarily compiled by the conference director, Katie McLaughlin (@glasnt). 
 
-### Licence
+## Licence
 
-You are free -- and encouraged -- to implement any method or suggestion described in this cache. The content itself is Creative Commons Zero (see [LICENCE.md](LICENCE.md)). 
+You are free -- and encouraged -- to implement any method or suggestion described in this cache. The content itself is CC BY-SA 4.0 (see [LICENCE.md](LICENCE.md)).
 
 I'd love to here if you've used anything listed here -- a shout-out on [Twitter](https://twitter.com/glasnt) or even a short email (see profile) would let me know that something here helped you 💜
 
