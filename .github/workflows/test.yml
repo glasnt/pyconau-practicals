@@ -9,7 +9,7 @@ jobs:
       - name: Build artefacts
         uses: docker://pandoc/core:2.9
         with: 
-          args: "chapters/* -o pyconau-practicals.epub --toc"
+          args: "-o pyconau-practicals.epub --toc chapters/*"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
