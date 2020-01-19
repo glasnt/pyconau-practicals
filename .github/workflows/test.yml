@@ -25,8 +25,8 @@ jobs:
         uses: actions/upload-release-asset@v1.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
+        with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: pyconau-practicals.epub
+          asset_path: ./pyconau-practicals.epub
           asset_name: pyconau-practicals.epub
           asset_content_type: application/epub+zip
