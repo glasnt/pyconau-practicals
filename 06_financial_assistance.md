@@ -35,7 +35,7 @@ Applications are then considered by a group of people, comprising of members of 
 
 This entire process is extremely subjective, and we always receive more applications than we can cover. Some years weigh more towards helping speakers attend, some towards more free tickets. Often a list of submissions with 'spam' content removed is ordered by total price, and we accept anyone up until the cut-off at our maximum budget. 
 
-_On spam:_ It's not uncommon for us to receive spam submissions. TODO(glasnt)
+_On spam:_ It's not uncommon for us to receive spam submissions. Given we have a limited amount of budget to use, we use a general 'gut feel' to any application that we think is not made in good faith. 
 
 Once we have our list, we email out to submitters and get them to confirm receipt and acceptance of the assistance. We then tell them of our claim process, as we offer reimbursements for invoices, and cannot give out cash. The laws for income vary from country to country, so your mileage may vary. 
 
@@ -46,3 +46,4 @@ We also don't allocate more than we can spend. If everyone accepts the assistanc
 Further reading: 
 
 * [Welcoming Everyone: Five Years of Inclusion and Outreach Programmes at PyCon Australia](https://www.youtube.com/watch?v=6jusW1PqL-4) by Christopher Neugebauer, presented at linux.conf.au 2016
+

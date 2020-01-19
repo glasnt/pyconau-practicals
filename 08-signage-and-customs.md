@@ -5,7 +5,7 @@ Communication is paramount with any event, especially when it comes to practical
 Ensuring an attendee can find the venue is one thing (way-finding systems in conference centres are helpful here, but can end up being confusing); but having active and passive communication once attendees arrive ensures that everyone knows their rights and responsibilities. 
 
 
-### Active
+## Active
 
 Opening announcements each day allow for active communication of our major communications. The first full-conference address starts with an [Acknowledgement of country](https://en.wikipedia.org/wiki/Welcome_to_Country#Acknowledgement_of_country), and a section dedicated to the overview of the event's Code of Conduct. Specifically, the contact details, and asking the members of the incident reporting team to stand so attendees can see the people they can contact. PyCon AU have also used a segmented lanyard system: white lanyards with sponsor logo for attendees, and green lanyards for organisers and active points of contact. Volunteers wore green bandanas, and could be contacted to help get in touch with a point of contact, or for other smaller questions. 
 
@@ -14,7 +14,7 @@ Other full-conference start-of-day addresses include a summarised version of the
 We also took the time to describe social customs of our conference. Namely, the [PacMan](https://www.ericholscher.com/blog/2017/aug/2/pacman-rule-conferences/) rule, pronoun stickers, and our other passive signage. 
 
 
-### Passive
+## Passive
 
 In addition to our morning announcements, we have a series of passive signs around the venue to help communicate with attendees. 
 
@@ -38,8 +38,7 @@ Bathroom signage from DjangoCon EU 2016 ([source](https://blog.sendecka.me/post/
 
 *Per the last image, this verbage was sourced from the University of Bristol's LGBT+ Society, so credit to them!*
 
-
-Since we were already ordering a bunch of posters, we also got some of the "You look great!" poster we saw used at DjangoCon US/Europe. Placed near the mirrors in the bathrooms, these were able to bring a touch of delight to our attendees. TODO(glasnt) fashion link?
+Since we were already ordering a bunch of posters, we also got some of the "You look great!" poster we also saw used at DjangoCon US/Europe. Placed near the mirrors in the bathrooms, these were able to bring a touch of delight to our attendees. 
 
 _Exclusive use of space_: Our ability to place signs in common conference areas was subject to us hiring an entire floor of our venue, and having exclusive use of the space. If your event is co-located in a conference centre, for example, this may not be possible. 
 
