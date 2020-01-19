@@ -11,8 +11,7 @@ jobs:
         with: 
           args: |
             -o pyconau-practicals.epub --toc 
-            chapters/metadata.yaml
-            chapters/*.md
+            --input-files chapters/*.md
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
