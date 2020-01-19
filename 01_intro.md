@@ -8,7 +8,7 @@ This repository serves as a cache of tips, tricks, suggestions, and consideratio
 
 You are free -- and encouraged -- to implement any method or suggestion described in this cache. The content itself is Creative Commons Zero (see [LICENCE.md](LICENCE.md)). 
 
-I'd love to here if you've used anything listed here -- a shout-out on [Twitter](https://twitter.com/glasnt) or even a short email (see profile) would let me know that something here helped you 💜
+I'd love to here if you've used anything listed here -- a shout-out on [Twitter](https://twitter.com/glasnt) or even a short email (see profile) would let me know that something here helped you.
 
 ### Contributions
 
