@@ -13,5 +13,5 @@ jobs:
         if: endsWith(github.ref, github.event.repository.default_branch)
         run: echo This is the endsWith way
       - name: Run in merge try three
-        if: github.ref == "refs/heads/{{ github.event.repository.default_branch }}"
+        if: github.ref == "refs/heads/master" #{{ github.event.repository.default_branch }}"
         run: echo This is the env ($MASTER_BRANCH)
