@@ -33,6 +33,7 @@ TODO
 Notes: 
 
 * Recording release, and recording. 
+ * notes on YouTube: licencing selection (with blogpost link), disabling comments. 
 * Next Day Video
 * AV Testing station
 
