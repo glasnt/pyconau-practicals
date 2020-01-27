@@ -14,7 +14,7 @@ jobs:
       - name: Build artefacts
         uses: docker://pandoc/core:2.9.1.1
         with: 
-          entrypoint: ./generate_epub.sh
+          entrypoint: ./generate.sh
 
       # Saves a copy for checking and debugging
       - name: Save artefact
