@@ -14,7 +14,7 @@ jobs:
       - name: Build artefacts
         uses: docker://pandoc/core:2.9.1.1
         with: 
-          entrypoint: generate.sh
+            args: -o pyconau-practicals.epub --toc --metadata-file metadata.yaml LICENCE.md README.md chapters/*.md
 
       # Saves a copy for checking and debugging
       - name: Save artefact
