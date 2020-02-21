@@ -31,20 +31,14 @@ When I say 'static' website, I mean a website [without moving parts](https://en.
 
 In a lot of cases throughout this book the answer to "what to choose" is "what do we have familiarity with", and that is definately the choice when it comes to static sites. Jekyll and GitHub pages have worked for me for many projects, so that's what we went with. I've even [written about the process before](https://opensource.com/article/19/8/github-pages-cicd-pipeline).
 
-TODO
-
-- jekyll ruby
-- djangoconus collections
-- opensource
-
-move then to
+You can look at our [code](https://github.com/pyconau/2019.pycon-au.org), see our [configurations](https://github.com/pyconau/2019.pycon-au.org/blob/master/_config.yml), and re-use as you will. 
  
 
 ### Add a splash of Netlify
 
 One thing we did improve in 2019 was adding Netlify into the mix. A complement/competitor to GitHub pages in it's own right, the major boost Netlify gave to our setup was [pull request previews](https://opensource.com/article/19/8/github-pages-cicd-pipeline#turning-it-up-to-11-with-netlify-pr-previews). When any pull request (PR) was created, Netlify would generate a preview unique to the PR, updated as the PR was updated, that would provide a rendered preview of the suggested change. This was an amazing usability feature for drive-through contributors who could see their pending changes without having to test them locally, and for maintainers who could also use the same feature. 
 
-## Call for Papers system
+## Call for Proposals system
 
 Running PyCon AU for two years meant that if we had sunk time and energy into one system, it would take a considerable about of benefits outweighting negatives in order to even consider changing. But this is what we did with our Call for Papers (CFP) system.
 
@@ -58,10 +52,15 @@ One system that kept coming up was PreTalx, who a few months after my post [resp
 
 I'd [highly recommend PreTalx](https://twitter.com/glasnt/status/1114431846920544256) if you're after a configurable CFP system. They have paid hosting plans, but if you like their software is [open source](https://github.com/pretalx/pretalx), meaning you can host it yourself (and pay for the cloud computing posts). 
 
-## Ticket system
+## Registration system
 
-money
-tito
+One of the support systems we were fortunate to have was [Linux Australia](https://linux.org.au/), who supports PyCon AU and a number of other open source events in Australia as a financial and legal entity. In particular we had access to their Stripe account, not only for [sponsorship](09-sponsorship.md), but also for putting the registration costs back into the system. 
+
+Given we had a Stripe account, we could use any system that had that integration. We went with [Tito](https://ti.to/home), a system most of the team were familiar registering with as attendees, and some had administered small events. 
+
+Getting people to register for your event is one thing, but this registration system was *the* tool to know about our attendees, what they wanted from our event, and how we could best support them. So having a configurable, customisable, and robust registration system is paramount. 
+
+With any recommentations of software, the major takeaway is to **test for your usecase**. We had a number of legacy registration configurations we had to support, and morphing Tito to suit wasn't the simplest process. Tito's workflow for registrations is a little bit of a bottleneck due to it's setup: all registrations have first/last name, optional company and email with payment, and then a series of questions you can setup ('activities', 'questions') etc. 
 
 
 ## Bonus: social media
