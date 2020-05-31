@@ -7,12 +7,27 @@ The speakers a conference hosts is a driving factor in getting people to attend,
 
 ## Call for Presentations
 
-TODO
+The presentations at our event take multiple different forms, a majority of which come from a public call for presentations. We invite speakers from anywhere, regardless of their experience, the oppourunity to put forward a proposal of what they want to present, and we select based on those proposals. 
 
-Notes: 
+The software you use for this doesn't have to all that fancy; I've personally used something as simple as a Google Form for some events, but what you ask is important. 
 
-* Mentorship
-* Encouraging new speakers
+Typically what is submitted in the Call for Presentations is what appears on the conference schedule, and as such there are two audiences: the selection committee, and the conference attendees. 
+
+For both, some information about the potential speaker is need the speaker name<sup>1</sup>, an optional company or affiliation, and a short biography. Optional contact methods such as a social media handle are also useful. 
+
+For the audience: the name of the talk, and the abstract of the talk. Something that is descriptive, but informative, that doesn't keep the audience unaware of what's in-store for the talk. A hook or a problem statement, a possible solution, and the topics the talk will cover is a good start. There are entire theses on what makes a good submission. 
+
+For the selection committee: Why the speaker should speak on the topic. Information that outside of the biography or talk description validate the experience or show why the speaker should speak. Also of extreme usefulness: an outline. Rough or detailed with timing, having a least an outline of the intended talk, no matter if the talk exists yet or not, allows the selection committee to know what the 'spoilers' are, and be able to ensure when it comes to selection time if two talks potentially cover the same ground. 
+
+<sup>1</sup>: the speaker name, not a first/last name, not a given name/surname, just a name. A single field.
+
+### Speaker assistance
+
+Not only is financial assistance useful -- and critical -- to ensure that some speakers are physically able to get to the event, but the encouragement given to potential speakers is also so important. 
+
+The mentorship programme we ran helped with this: offering a list of veteran speakers for potential speakers to contact for reviewing submissions or general questions worked well in our case. This allowed for opt-in based on where a potential speaker thought their session would overlap with a veteran's experience, and never forced only one mentor to handle all inquiries. 
+
+Encouraging new speakers was also something we wanted to do. Even though we had other talk platforms, particularly lightning talks, for speakers to dip their toe, we never rejected a speaker just because they had zero experience. In fact, in submissions we could identify were from new speakers that needed improvement, we reached back out to them with suggestions and tips to improve their submissions. 
 
 ## Presentation Selection
 
