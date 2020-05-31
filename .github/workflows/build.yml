@@ -14,7 +14,7 @@ jobs:
       - name: Build artefacts
         uses: docker://pandoc/core:2.9.1.1
         with: 
-            args: -o pyconau-practicals.epub --toc --metadata-file metadata.yaml LICENCE.md README.md chapers/00_forward.md chapters/01_intro.md chapters/01_intro.md chapters/02_website.md chapters/03_sessions.md chapters/04_tickets.md chapters/05_lightning-talks.md chapters/06_financial_assistance.md chapters/07_shirts.md chapters/08-signage-and-customs.md chapters/09_sponsorship.md chapters/99_thanks.md
+            args: -o pyconau-practicals.epub --toc --metadata-file metadata.yaml LICENCE.md README.md chapters/00_forward.md chapters/01_intro.md chapters/01_intro.md chapters/02_website.md chapters/03_sessions.md chapters/04_tickets.md chapters/05_lightning-talks.md chapters/06_financial_assistance.md chapters/07_shirts.md chapters/08-signage-and-customs.md chapters/09_sponsorship.md chapters/99_thanks.md
 
       # Saves a copy for checking and debugging
       - name: Save artefact
